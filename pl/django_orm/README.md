@@ -21,7 +21,7 @@ Efekt powinien wyglądać tak:
     >>>
     
 
-Jesteś teraz w intrektywnej konsoli Django. Przypomina ona nieco wiersz poleceń Pythona, z odrobiną dodatkowej magii Django :) Oczywiście możesz także używać w niej wszystkich poleceń Pythona.
+Jesteś teraz w interaktywnej konsoli Django. Przypomina ona nieco wiersz poleceń Pythona, z odrobiną dodatkowej magii Django :) Oczywiście możesz także używać w niej wszystkich poleceń Pythona.
 
 ### Wszystkie obiekty
 
@@ -72,7 +72,7 @@ Jakich użytkowników mamy w bazie danych? Spróbuj tak:
     <User: ola>
     
 
-Jakich użytkowników mamy w bazie danych? Spróbuj tak:
+Jakich użytkowników mamy teraz w bazie danych? Spróbuj tak:
 
     >>> User.objects.all()
     [<User: ola>]

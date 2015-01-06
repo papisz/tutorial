@@ -219,7 +219,7 @@ Teraz możemy otworzyć naszą aplikację w przeglądarce za pomocą polecenia `
 
 W Twojej przeglądarce otworzy się strona pod adresem zbliżonym do [https://djangogirlsblog.herokuapp.com/](), no i w tym momencie prawdopodobnie pojawi się błąd. Jak dotąd stworzyłyśmy w naszej aplikacji jedynie widok admina, więc dodaj do adresu `admin/` (np. [https://djangogirlsblog.herokuapp.com/admin/]()), aby zobaczyć działającą stronę Twojej aplikacji.
 
-Błąd, który widziałaś wcześniej, był spowodowany tym, że przy wdrażaniu strony na Heroku stworzyłyśmy nową bazę danych - i teraz jest ona pusta. Aby poprawnie przygotować naszą bazę danych do pracy, musimy wykonać polecenie ~~~ migrate~~~ w taki sam sposób, jak wtedy, gdy zaczynałyśmy tworzyć nasz projekt:
+Błąd, który widziałaś wcześniej, był spowodowany tym, że przy wdrażaniu strony na Heroku stworzyłyśmy nową bazę danych - i teraz jest ona pusta. Aby poprawnie przygotować naszą bazę danych do pracy, musimy wykonać polecenie `migrate` w taki sam sposób, jak wtedy, gdy zaczynałyśmy tworzyć nasz projekt:
 
     $ heroku run python manage.py migrate
     
